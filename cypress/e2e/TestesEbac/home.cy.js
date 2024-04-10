@@ -12,8 +12,8 @@ describe('Testes para exercicio', ()=> {
 
     it('deve adicionar um novo contato', ()=> {
         cy.get('[type="text"]').type('John')
-        cy.get('[type="email"]').type('contato21john@gmail.com')
-        cy.get('[type="tel"]').type('11999999999{enter}')
+        cy.get('[type="email"]').type('gabrielfilipe2346@gmail.com')
+        cy.get('[type="tel"]').type('48996152255{enter}')
 
         cy.get('.contato').should('have.length', 4)
     })
